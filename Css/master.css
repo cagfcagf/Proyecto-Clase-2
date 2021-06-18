@@ -57,9 +57,7 @@ a:hover {
   color: var(--MainBlue);
 }
 
-form {
-  height: 600px;
-}
+
 
 .gridStructure {
   grid-column: 2/3;
@@ -405,6 +403,10 @@ nav li a:visited {
 #LoQuiero .buttonMain a {
   text-decoration: none;
   color: var(--MainBlack);
+}
+
+form {
+  height:900px;
 }
 
 /* Footer */
