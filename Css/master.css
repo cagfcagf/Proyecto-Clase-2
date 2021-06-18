@@ -743,6 +743,7 @@ Footer a:hover {
     .logo {
       margin-right: 0.5rem;
       width: 60vw;
+      margin-left: 0.5rem;
     }
 
     #LoQuiero h2 {
