@@ -711,8 +711,8 @@ Footer a:hover {
 
     header {
 
-      padding-right: 1rem;
-      padding-left: 1rem;
+      padding-right: 0rem;
+      padding-left: 0rem;
 
     }
 
@@ -739,5 +739,10 @@ Footer a:hover {
     .inspiracionDescription {
       margin-bottom: 2rem;
     }
+
+    .logo {
+      margin-right: 0.5rem;
+    }
+
 
     }
