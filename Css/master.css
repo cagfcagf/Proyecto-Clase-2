@@ -59,7 +59,7 @@ a:hover {
 
 
 
-.gridStructure {
+.main__gridStructure {
   grid-column: 2/3;
 }
 
@@ -117,13 +117,13 @@ header {
   border: 1.5px solid white;
 }
 
-header .gridStructure {
+header . {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.logo {
+.main__logo {
   max-width: 300px;
 }
 
@@ -162,7 +162,7 @@ nav li a:visited {
   margin-bottom: 2.5rem;
 }
 
-#mainPhrase .gridStructure {
+#mainPhrase .main__gridStructure {
   margin-top: 2.5rem;
   display: grid;
   grid-template-columns: 6fr 6fr;
@@ -170,7 +170,7 @@ nav li a:visited {
 
 }
 
-.micro {
+.main__micro {
   max-height: 300px;
 }
 
@@ -206,7 +206,7 @@ nav li a:visited {
   background-color: white;
 }
 
-#nuestrosPrincipios .gridStructure {
+#nuestrosPrincipios .main__gridStructure {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr 1fr;
@@ -270,7 +270,7 @@ nav li a:visited {
 }
 
 
-#nuestraInspiracion .gridStructure{
+#nuestraInspiracion .main__gridStructure{
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -314,7 +314,7 @@ nav li a:visited {
   padding-top: 4rem;
 }
 
-#comoLoAplicamos .gridStructure{
+#comoLoAplicamos .main__gridStructure{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -335,7 +335,7 @@ nav li a:visited {
   padding-top: 4rem;
 }
 
-#QueNoSeInterrumpa .gridStructure {
+#QueNoSeInterrumpa .main__gridStructure {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -367,7 +367,7 @@ nav li a:visited {
 }
 
 
-#LoQuiero .gridStructure{
+#LoQuiero .main__gridStructure{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -412,7 +412,7 @@ form iframe {
 
 /* Footer */
 
-Footer .gridStructure {
+Footer .main__gridStructure {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -450,7 +450,7 @@ Footer a:hover {
   padding-bottom: 3rem;
 }
 
-#partners .gridStructure{
+#partners .main__gridStructure{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -520,7 +520,7 @@ Footer a:hover {
   text-align: center;
 }
 
-#loQuiero .gridStructure {
+#loQuiero .main__gridStructure {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -543,7 +543,7 @@ Footer a:hover {
 
 
 
-  .gridStructure {
+  .main__gridStructure {
     grid-column: 1/2;
   }
 
@@ -559,7 +559,7 @@ Footer a:hover {
     /* margin-bottom: 2.5rem; */
   }
 
-  #mainPhrase .gridStructure {
+  #mainPhrase .main__gridStructure {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -567,7 +567,7 @@ Footer a:hover {
     justify-content: center;
   }
 
-  .micro {
+  .main__micro {
     display: none;
   }
 
@@ -587,7 +587,7 @@ Footer a:hover {
 
   }
 
-    #mainPhrase .gridStructure, #nuestraInspiracion .gridStructure, #comoLoAplicamos .gridStructure, #QueNoSeInterrumpa .gridStructure, #LoQuiero .gridStructure {
+    #mainPhrase .main__gridStructure, #nuestraInspiracion .main__gridStructure, #comoLoAplicamos .main__gridStructure, #QueNoSeInterrumpa .main__gridStructure, #LoQuiero .main__gridStructure {
     padding-left: 1rem;
     padding-right: 1rem;
 
@@ -595,7 +595,7 @@ Footer a:hover {
 
 
 
-  #QueNoSeInterrumpa .gridStructure {
+  #QueNoSeInterrumpa .main__gridStructure {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -616,7 +616,7 @@ Footer a:hover {
   }
 
 
-  #nuestraInspiracion .gridStructure{
+  #nuestraInspiracion .main__gridStructure{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -653,7 +653,7 @@ Footer a:hover {
     }
 
 
-    #LoQuiero .gridStructure{
+    #LoQuiero .main__gridStructure{
       display: flex;
      flex-direction: column;
      align-items: center;
@@ -681,7 +681,7 @@ Footer a:hover {
     }
 
 
-    #nuestrosPrincipios .gridStructure {
+    #nuestrosPrincipios .main__gridStructure {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -743,7 +743,7 @@ Footer a:hover {
       margin-bottom: 2rem;
     }
 
-    .logo {
+    .main__logo {
       margin-right: 0.5rem;
       width: 60vw;
       margin-left: 0.5rem;

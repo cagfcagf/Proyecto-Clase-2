@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-clase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "sass": "^1.35.1"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/master2.scss Css/master.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagfcagf/Proyecto-Clase-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagfcagf/Proyecto-Clase-2/issues"
+  },
+  "homepage": "https://github.com/cagfcagf/Proyecto-Clase-2#readme"
+}
